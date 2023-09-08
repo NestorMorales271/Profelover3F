@@ -1,10 +1,17 @@
+#include <cstdio>
+#include <string>
+#include <iostream>
+#include <Humano.hpp>
+
 int main(int argc, char const *argv[])
 {
-    int a = 0;
-    for (int contador = 0; contador < 10; contador++)
-    {
-        a += 1;
-    }
+    std::cout << "Inicio Mensaje" << std::endl;
+    Humano h1;
+    Humano h2;
 
+    h1.caminar();
+    h2.caminar();
+
+    std::cout << "Fin Mensaje" << std::endl;
     return 0;
 }

@@ -1,0 +1,1 @@
+g++ scr/main.cpp -o bin/humanos -I include
