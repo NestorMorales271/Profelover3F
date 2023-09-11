@@ -1,0 +1,249 @@
+@startuml 
+Class Undertale 
+class Final
+class RutaGenocida
+class RutaPacifista
+class RutaNeutral
+class Jefe
+class JefeNeutral
+class JefePacifista
+class JefeGenocida
+class Humano
+class Chara
+class Frisk
+class Monstruo
+class Perro
+class MiniJefe
+class MiniJefeEspecial
+class NPC
+class Realeza
+class Combatiente
+class Comerciante
+class AyudanteRuta
+class Escenario
+class Asgore
+class Toriel
+class Asriel
+class Alphys
+class WDGaster
+class Flowey
+class OmegaFlowey
+class Dummy
+class MadDummy
+class Napstablook
+class Mettaton
+class MettatonEX
+class MettatonNEO
+class Sans 
+class Papyrus
+class Muffet
+class Undyne
+class UndyneTheUndying
+class RoyalGuards
+class Amalgamates
+class MemoryHead
+class ReaperBird
+class LemonBread
+class SnowdrakeMom
+class ThinAmalgem 
+class Chilldrake
+class Froggit
+class Astigmatism
+class Gyftrot
+class IceCap
+class Aaron
+class Jerry
+class KnightKnight
+class Loox
+class Madjick
+class Midgosp
+class Moldessa
+class Moldsmal
+class Parsink
+class Pyrope
+class Shyren
+class Snowdrake
+class Tsunderplane
+class Vegetoid
+class Vulkin
+class Whismsalot
+class Whimsun
+class Woshua
+class Glyde
+class MadMewMew
+class SoSorry
+class MonsterKid
+class Alma 
+class Item 
+class Ropa
+class Comida 
+class Telefono
+class Accion 
+class Pelear
+class Actuar 
+class UsarItem 
+class Perdonar
+class Vida 
+class LOVE 
+class Determinacion
+class Integridad
+class Valentia
+class Paciencia
+class Perseverancia
+class Justicia
+class Amabilidad
+class AlmaMonstruo
+class Gerson 
+class Burgerpants
+class CattyAndBratty
+class Tem
+class BakerSpider
+class PurpleBonnie
+class RiverMan
+class Rojo
+class Amarillo
+class Verde 
+class Azul 
+class Celeste 
+class Naranja 
+class Morado
+class Blanco
+ 
+
+Undertale *-- Humano
+Undertale *-- Monstruo
+Undertale *-- Perro
+Undertale *-- Final 
+RutaGenocida --|> Final
+RutaGenocida *-- JefeGenocida
+RutaPacifista --|> Final 
+RutaPacifista *-- JefePacifista
+RutaNeutral --|> Final
+RutaNeutral *-- JefeNeutral
+JefeGenocida --|> Jefe
+JefeNeutral --|> Jefe
+JefePacifista --|> Jefe
+MiniJefeEspecial --|> MiniJefe
+MiniJefe --|> Jefe
+Humano <|-- Chara
+Humano <|-- Frisk
+Humano *-- Alma
+Humano *-- Vida
+Humano *-- LOVE
+Humano o-- Accion
+Combate o-- Accion
+Combatiente o-- Combate
+Pelear --|> Accion
+Actuar --|> Accion
+UsarItem --|> Accion 
+Perdonar --|> Accion
+UsarItem o-- Item
+Arma --|> Item
+Ropa --|> Item
+Comida --|> Item
+Telefono --|> Item
+Tienda o-- Item
+Tienda *-- Comerciante
+Determinacion --|> Alma
+Integridad --|> Alma
+Paciencia --|> Alma
+Amabilidad --|> Alma
+Valentia --|> Alma
+Perseverancia --|> Alma
+AlmaMonstruo --|> Alma
+Justicia --|> Alma
+Monstruo *-- AlmaMonstruo 
+Monstruo <|-- Realeza
+Monstruo <|-- Combatiente
+Comerciante --|> NPC
+Doggo --|> Perro
+DoggamyAndDogaressa --|> Perro
+AnnoyingDog --|> Perro
+Temmie --|> Perro 
+GreaterDog --|> Perro
+LesserDog --|> Perro
+Endogeny --|> Perro
+Asgore --|> Realeza
+WDGaster --|> Realeza
+Alphys --|> Realeza
+Toriel --|> JefeNeutral
+Papyrus --|> JefeNeutral
+Undyne --|> JefeNeutral
+MettatonEX --|> JefeNeutral
+Asgore --|> JefeNeutral
+OmegaFlowey --|> JefeNeutral
+Toriel --|> JefePacifista
+Papyrus --|> JefePacifista
+Undyne --|> JefePacifista
+MettatonE --|> JefePacifista
+Asriel --|> JefePacifista
+MettatonNEO --|> JefeGenocida
+UndyneTheUndying --|> JefeGenocida
+Sans --|> JefeGenocida
+Gerson --|> Comerciante
+Burgerpants --|> Comerciante
+CattyAndBratty --|> Comerciante
+Tem --|> Comerciante
+BakerSpider --|> Comerciante
+PurpleBonnie --|> Comerciante
+Flowey --|> MiniJefe
+Napstablook --|> MiniJefe
+Mettaton --|> MiniJefe
+Muffet --|> MiniJefe
+Amalgamates --|> JefePacifista
+RoyalGuards --|> MiniJefe
+MadMewMew --|> MiniJefeEspecial
+Glyde --|> MiniJefeEspecial
+SoSorry --|> MiniJefeEspecial
+Amalgamates --|> Combatiente
+MemoryHead --|> Amalgamates
+ReaperBird --|> Amalgamates
+LemonBread --|> Amalgamates
+SnowdrakeMom --|> Amalgamates
+ThinAmalgem --|> Amalgamates
+Endogeny --|> Amalgamates
+Chilldrake --|> Combatiente
+Froggit --|> Combatiente
+Astigmatism --|> Combatiente
+Gyftrot --|> Combatiente
+IceCap --|> Combatiente
+Aaron --|> Combatiente
+Jerry --|> Combatiente
+KnightKnight --|> Combatiente
+Loox --|> Combatiente
+Madjick --|> Combatiente
+Midgosp --|> Combatiente
+Moldessa --|> Combatiente
+Moldsmal --|> Combatiente
+Parsink --|> Combatiente
+Pyrope --|> Combatiente
+Shyren --|> Combatiente
+Snowdrake --|> Combatiente
+Tsunderplane --|> Combatiente
+Vegetoid --|> Combatiente
+Vulkin --|> Combatiente
+Whismsalot --|> Combatiente
+Whimsun --|> Combatiente
+Woshua --|> Combatiente
+Dummy --|> Combatiente
+MonsterKid --|> AyudanteRuta
+Alphys --|> AyudanteRuta
+RiverMan --|> AyudanteRuta
+AyudanteRuta --|> Monstruo
+NPC --|> Monstruo
+MadDummy --|> Dummy
+Mettaton <|-- MettatonEX 
+Mettaton <|-- MettatonNEO
+Undyne <|-- UndyneTheUndying
+Undertale o-- Escenario
+Escenario *-- NPC
+Jefe --|> Combatiente
+Determinacion o-- Rojo
+Justicia o-- Amarillo
+Amabilidad o-- Verde
+Integridad o-- Azul
+Paciencia o-- Celeste
+Valentia o-- Naranja
+Perseverancia o-- Morado
+AlmaMonstruo o-- Blanco
+@enduml
