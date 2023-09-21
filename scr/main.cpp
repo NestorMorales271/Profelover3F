@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 #include <Humano.hpp>
+#include <Monstruo.hpp>
 
 int main(int argc, char const *argv[])
 {
