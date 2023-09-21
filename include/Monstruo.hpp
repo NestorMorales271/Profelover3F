@@ -34,7 +34,8 @@ public:
         std::cout << "Mi nombre es: " << this->nombre << std::endl;
     }
 
-    void Ataques(){
-        std::cout<<"Los monstruos poseen ataques"<< std::endl;
+    void Ataques()
+    {
+        std::cout << "Los monstruos poseen ataques" << std::endl;
     }
 };
