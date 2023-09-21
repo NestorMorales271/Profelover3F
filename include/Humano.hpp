@@ -33,4 +33,14 @@ public:
     {
         std::cout << "Mi nombre es: " << this->nombre << std::endl;
     }
+
+    void Frisk()
+    {
+        std::cout << "Mi nombre es Frisk " << std::endl;
+    }
+
+    void Chara()
+    {
+        std::cout << "Mi nombre es Chara :) " << std::endl;
+    }
 };
