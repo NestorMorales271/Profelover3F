@@ -25,7 +25,7 @@ public:
         {
             actualizable->Actualizar();
         }
-        usleep(41000); // 0.041s/fotograma
+        usleep(40000); // 0.041s/fotograma
     }
     void Dibujar(list<Dibujo *> dibujos)
     {

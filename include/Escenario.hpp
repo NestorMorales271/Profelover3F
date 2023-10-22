@@ -3,15 +3,15 @@
 #include <Actualizable.hpp>
 #include <iostream>
 
-class Perro : public Dibujo, public Actualizable
+class Escenario : public Dibujo, public Actualizable
 {
 private:
     /* data */
 public:
-    Perro() : Dibujo("Perro")
+    Escenario() : Dibujo("Undertale")
     {
     }
-    Perro(int x, int y) : Dibujo(x, y, "Perro")
+    Escenario(int x, int y) : Dibujo(x, y, "Undertale")
     {
     }
     void Actualizar()
@@ -19,5 +19,5 @@ public:
         this->x += 0;
         this->y += 0;
     }
-    ~Perro() {}
+    ~Escenario() {}
 };
