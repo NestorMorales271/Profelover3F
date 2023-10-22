@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 class Monstruo
 {
@@ -32,10 +33,5 @@ public:
     void DecirNombre()
     {
         std::cout << "Mi nombre es: " << this->nombre << std::endl;
-    }
-
-    void Ataques()
-    {
-        std::cout << "Los monstruos poseen ataques" << std::endl;
     }
 };
