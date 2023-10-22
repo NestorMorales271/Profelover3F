@@ -40,6 +40,14 @@ int main(int argc, char const *argv[])
         {
             humano1->DesplazarDer();
         }
+        if (key == 'w' || key == 'w')
+        {
+            humano1->DesplazarArriba();
+        }
+        if (key == 's' || key == 's')
+        {
+            humano1->DesplazarAbajo();
+        }
         ventana.Actualizar(actualizables);
         ventana.Dibujar(dibujos);
     }

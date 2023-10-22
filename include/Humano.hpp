@@ -24,27 +24,21 @@ public:
     {
         this->x += 1;
     }
+    void DesplazarAbajo()
+    {
+        this->y += 1;
+    }
+    void DesplazarArriba()
+    {
+        this->y += -1;
+    }
+     void Actualizar()
+    {
+        this->x += 0;
+        this->y += 0;
+    }
     ~Humano()
     {
-        // std::cout << "El humano ha muerto!!" << std::endl;
     }
-    void Init()
-    {
-        // std::cout << "Un humano ha caido!!" << std::endl;
-        // this->nombre = "Frisk";
-    }
-    void Dest()
-    {
-        // std::cout << "El humano ha muerto!!" << std::endl;
-    }
-
-    void caminar()
-    {
-        // std::cout << "Estoy caminando." << std::endl;
-    }
-
-    void DecirNombre()
-    {
-        // std::cout << "Mi nombre es: " << this->nombre << std::endl;
-    }
+   
 };

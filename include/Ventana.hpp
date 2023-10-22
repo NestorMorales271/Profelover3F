@@ -34,7 +34,7 @@ public:
         {
             dibujo->Dibujar();
         }
-        box(stdscr, '*', '>');
+        box(stdscr, 'x', '>');
         refresh();
     }
     ~Ventana()
