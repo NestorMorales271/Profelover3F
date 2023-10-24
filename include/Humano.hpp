@@ -1,21 +1,16 @@
 #pragma once
 #include <Dibujo.hpp>
 #include <Actualizable.hpp>
-// #include <iostream>
+#include <Alma.hpp>
+#include <iostream>
 
 class Humano : public Dibujo, public Actualizable
 {
 private:
-    // std::string nombre;
+    Alma *alma1;
 public:
-    Humano() : Dibujo("Humano")
-    {
-        // std::cout << "Un humano ha caido!!" << std::endl;
-        // this->nombre = "Frisk";
-    }
-    Humano(int x, int y) : Dibujo(x, y, "Humano")
-    {
-    }
+    Humano() : Dibujo("Humano"){}
+    Humano(int x, int y) : Dibujo(x, y, "Humano"){}
     void DesplazarIzq()
     {
         this->x += -1;
@@ -37,7 +32,14 @@ public:
         this->x += 0;
         this->y += 0;
     }
-    ~Humano()
-    {
+    void Dibujar(){
+        //clase superior
+        Dibujo::Dibujar();
+        //arma
+        alma1->Dibujar();
     }
+    void RecogerAlma(Alma* alma){
+        this->alma1=alma;
+    }
+    ~Humano(){}
 };

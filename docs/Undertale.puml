@@ -1,0 +1,14 @@
+@@startuml
+class Juego
+class Humano
+class Monstruo
+class Escenario
+class Dibujo 
+class Actualizable
+
+Humano -|> Dibujo
+Humano es -|> Actualizable
+
+
+
+@@enduml

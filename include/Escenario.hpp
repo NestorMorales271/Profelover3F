@@ -1,9 +1,9 @@
 #pragma once
 #include <Dibujo.hpp>
-#include <Actualizable.hpp>
+//#include <Actualizable.hpp>
 #include <iostream>
 
-class Escenario : public Dibujo, public Actualizable
+class Escenario : public Dibujo//, public Actualizable
 {
 private:
     /* data */
@@ -14,10 +14,10 @@ public:
     Escenario(int x, int y) : Dibujo(x, y, "Undertale")
     {
     }
-    void Actualizar()
-    {
-        this->x += 0;
-        this->y += 0;
-    }
+    // void Actualizar()
+    // {
+    //     this->x += 0;
+    //     this->y += 0;
+    // }
     ~Escenario() {}
 };

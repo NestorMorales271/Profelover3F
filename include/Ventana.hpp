@@ -30,6 +30,7 @@ public:
     void Dibujar(list<Dibujo *> dibujos)
     {
         clear();
+        
         for (auto &&dibujo : dibujos)
         {
             dibujo->Dibujar();

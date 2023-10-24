@@ -8,11 +8,9 @@ class Dibujo
 {
 private:
     std::fstream archivo;
-
 protected:
     int y;
     int x;
-
 public:
     Dibujo(int x, int y, std::string recurso)
     {
