@@ -23,13 +23,10 @@ Personaje original:
 
 Personaje caracterizado en mi codigo:
   __
-
 //-.-\
-
 [|==|]
-
  J J
- 
+
 * * *
 El proyecto sigue en desarrollo...   :)
     
