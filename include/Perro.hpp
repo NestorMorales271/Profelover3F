@@ -10,6 +10,8 @@ private:
 public:
     Perro() : Dibujo("Perro")
     {
+        this->x += 0;
+        this->y += 0;
     }
     Perro(int x, int y) : Dibujo(x, y, "Perro")
     {

@@ -10,8 +10,8 @@ private:
     std::fstream archivo;
 
 protected:
-    int y;
     int x;
+    int y;
 
 public:
     Dibujo(int x, int y, std::string recurso)

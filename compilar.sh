@@ -1,1 +1,1 @@
-g++ scr/main.cpp -o bin/humanos -I include
+g++ scr/Undertale.cpp -o bin/Undertale -I include

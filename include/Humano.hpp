@@ -29,8 +29,6 @@ public:
     }
     void Actualizar()
     {
-        this->x += 0;
-        this->y += 0;
     }
     void Dibujar()
     {

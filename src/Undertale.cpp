@@ -15,11 +15,11 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     Ventana ventana;
-    Humano *humano1 = new Humano(4, 4);
-    Escenario *escena1 = new Escenario(10, 45);
-    Perro *perro1 = new Perro(100, 50);
-    Alma *alma = new Alma(10, 6);
-    Bala *bala = new Bala(12, 6);
+    Humano *humano1 = new Humano(10, 14);
+    Escenario *escena1 = new Escenario(5, 1);
+    Perro *perro1 = new Perro(45, 45);
+    Alma *alma = new Alma(16, 16);
+    Bala *bala = new Bala(18, 16);
 
     humano1->RecogerAlma(alma);
 
@@ -41,7 +41,7 @@ int main(int argc, char const *argv[])
         }
         if (key == ' ')
         {
-            alma->Actualizar();
+            bala->Actualizar();
             dibujos.push_back(bala);
             alma->Disparar();
             actualizables.push_back(bala);
