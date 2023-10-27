@@ -1,4 +1,4 @@
-# [Undertale]
+# [Undertale by Nestor Morales]
 ![Titulo representativo "UNDERTALE"](https://sucodemanga.com.br/wp-content/uploads/2018/09/undertale-thumb.jpg)
 ---
 *"Este repositorio representara en forma de clases y objetos el mundo del videojego Undertale, sus acciones, escenarios, items asi como caracteristicas de estos."*
@@ -27,6 +27,19 @@ Hasta ahora las funciones que presenta son:
 //-.-\  
 [|==|]  
  J J  
+~~~
+
+### Toby Fox [Creador del juego] representado como un perro en el juego original:  
+![Dibujo del perrito 'Toby'](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJz3RSTg-NL1XnpofdyxZV3daUUH7E5i-boRu3DcIg%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1&ipt=2b4926fd4eedd781a11a5bb3d46353875ff69a73780ff9525bff2171506dcf94&ipo=images.jpg)  
+
+#### Personaje caracterizado en mi codigo:  
+~~~
+  ^----^
+ | . .   \
+| -_r_-   \_____ ^
+|                |
+ \  __  ____  _  |
+  \/  \/    \/ \/
 ~~~
 El proyecto sigue en desarrollo...   :)
     
