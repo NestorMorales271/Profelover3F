@@ -1,8 +1,8 @@
 CXX = x86_64-w64-mingw32-g++
 br: clean compilar ejecutar
 
-compilar: src/main.cpp
-	$(CXX) src/main.cpp -o bin/Undertale -I include
+compilar: src/Undertale.cpp
+	$(CXX) src/Undertale.cpp -o bin/Undertale -I include
 
 ejecutar: bin/Undertale
 	./bin/Undertale
