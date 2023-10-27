@@ -2,7 +2,7 @@
 #include <Dibujo.hpp>
 #include <Actualizable.hpp>
 #include <Alma.hpp>
-#include <iostream>
+
 
 class Humano : public Dibujo, public Actualizable
 {
