@@ -21,7 +21,7 @@ Personaje original:
 ![Dibujo de Frisk en jurgo original](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFS6OWOaPw6g%2Fhqdefault.jpg&f=1&nofb=1&ipt=6693f339894d7adf7b1af696d48a6f3fdfbf5693ff6eabb83f9a9e2a7b01d6bf&ipo=images.jpg)  
 
 Personaje caracterizado en mi codigo:  
-* * *
+* * *  
   __  
 //-.-\  
 [|==|]  
