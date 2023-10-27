@@ -12,7 +12,9 @@ Alma representada en el juego original:
 ![Dibujo del alma en jurgo original](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpm1.narvii.com%2F6312%2Fbdbf4515f660517dd2f43bc01c0e2a02539f7ccc_00.jpg&f=1&nofb=1&ipt=7d345bffaaabfc31cc6b2b1fc6b5c4169d963193218ea156496c112aefc8ddac&ipo=images.jpg)
 
 Alma caracterizada en mi codigo:
+
 <3 
+
 * * *
 -Personaje inspirado en el personaje principal "Frisk".
 * * *
@@ -21,9 +23,13 @@ Personaje original:
 
 Personaje caracterizado en mi codigo:
   __
+
 //-.-\
+
 [|==|]
+
  J J
+ 
 * * *
 El proyecto sigue en desarrollo...   :)
     
