@@ -3,14 +3,14 @@
 #include <Actualizable.hpp>
 #include <Alma.hpp>
 
-
 class Humano : public Dibujo, public Actualizable
 {
 private:
     Alma *alma1;
+
 public:
-    Humano() : Dibujo("Humano"){}
-    Humano(int x, int y) : Dibujo(x, y, "Humano"){}
+    Humano() : Dibujo("Humano") {}
+    Humano(int x, int y) : Dibujo(x, y, "Humano") {}
     void DesplazarIzq()
     {
         this->x += -1;
@@ -32,14 +32,16 @@ public:
         this->x += 0;
         this->y += 0;
     }
-    void Dibujar(){
-        //clase superior
+    void Dibujar()
+    {
+        // clase superior
         Dibujo::Dibujar();
-        //arma
+        // arma
         alma1->Dibujar();
     }
-    void RecogerAlma(Alma* alma){
-        this->alma1=alma;
+    void RecogerAlma(Alma *alma)
+    {
+        this->alma1 = alma;
     }
-    ~Humano(){}
+    ~Humano() {}
 };

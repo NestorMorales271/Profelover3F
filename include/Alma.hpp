@@ -12,7 +12,7 @@ public:
     {
         this->numeroDisparos = 5;
     }
-    Alma(int x, int y) : Dibujo(x,y,"Alma")
+    Alma(int x, int y) : Dibujo(x, y, "Alma")
     {
         this->numeroDisparos = 5;
     }
@@ -46,5 +46,5 @@ public:
             this->numeroDisparos -= 1;
         }
     }
-    ~Alma(){}
+    ~Alma() {}
 };

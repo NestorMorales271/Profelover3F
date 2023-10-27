@@ -5,17 +5,19 @@
 class Bala : public Dibujo, public Actualizable
 {
 private:
-int direccion;
+    int direccion;
+
 public:
     Bala() : Dibujo("Bala")
     {
     }
     Bala(int x, int y) : Dibujo(x, y, "Bala")
     {
-        this->direccion=1;
+        this->direccion = 1;
     }
-    void CambiarDireccion(){
-        this->direccion*=-1;
+    void CambiarDireccion()
+    {
+        this->direccion *= -1;
     }
     void DesplazarIzq()
     {

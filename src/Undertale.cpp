@@ -27,12 +27,10 @@ int main(int argc, char const *argv[])
     dibujos.push_back(humano1);
     dibujos.push_back(escena1);
     dibujos.push_back(alma);
-    
 
     list<Actualizable *> actualizables;
     actualizables.push_back(humano1);
     actualizables.push_back(alma);
-    
 
     while (true)
     {
@@ -41,16 +39,19 @@ int main(int argc, char const *argv[])
         {
             break;
         }
-        if(key==' '){
+        if (key == ' ')
+        {
             alma->Actualizar();
             dibujos.push_back(bala);
             alma->Disparar();
             actualizables.push_back(bala);
         }
-        if(key=='r'){
+        if (key == 'r')
+        {
             alma->Recargar();
         }
-        if(key=='n'){
+        if (key == 'n')
+        {
             bala->CambiarDireccion();
         }
         if (key == 'a')
